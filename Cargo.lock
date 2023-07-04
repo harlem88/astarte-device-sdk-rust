@@ -1941,9 +1941,9 @@ dependencies = [
 
 [[package]]
 name = "rumqttc"
-version = "0.21.0"
+version = "0.22.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "04483567c64bb8a9d64364a0a9437215a056a2b886140fd66e62a12394cf5998"
+checksum = "f2433b134712bc17a6f85a35e06b901e6e8d0bb20b5367e1121e6fedc140c0ac"
 dependencies = [
  "bytes",
  "flume",
@@ -1951,9 +1951,10 @@ dependencies = [
  "log",
  "rustls-native-certs",
  "rustls-pemfile",
+ "rustls-webpki",
  "thiserror",
  "tokio",
- "tokio-rustls 0.23.4",
+ "tokio-rustls 0.24.1",
 ]
 
 [[package]]
